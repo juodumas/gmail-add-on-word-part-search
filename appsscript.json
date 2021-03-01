@@ -1,0 +1,19 @@
+{
+  "timeZone": "UTC",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "name": "Gmail partial word search",
+      "logoUrl": "about:blank",
+      "homepageTrigger": {
+        "runFunction": "buildHomePage"
+      }
+    },
+    "gmail": {}
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://mail.google.com/"
+  ]
+}
