@@ -9,3 +9,5 @@ click a button to continue with the next 50 threads.
 I have created this because users in one organization needed to find e-mails
 based on sequences of numbers. The problem was that these numbers could be
 prefixed or suffixed with random letters, so Gmail's search didn't work.
+
+![screenshot](screenshot.png)
